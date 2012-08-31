@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical" android:scrollbars="vertical">
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center"
+    android:id="@+id/txtInicio" android:gravity="center_horizontal" android:background="#0000FF" android:textColor="#ffffff" android:textStyle="bold" android:text="Aplicações para Comunidade USP - Capital"/>
+<Button android:layout_width="fill_parent" android:id="@+id/btnBandeijao" android:layout_height="wrap_content" android:text="Bandeijão" android:textStyle="bold"></Button>
+<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/btnOndeEstou" android:textStyle="bold" android:text="Mapa da USP e Fila dos Portões"></Button>
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Semidroid" android:id="@+id/btnSemidroid" android:textStyle="bold"></Button>
+
+
+</LinearLayout>
